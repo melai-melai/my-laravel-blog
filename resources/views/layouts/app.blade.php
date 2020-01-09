@@ -11,6 +11,9 @@
     </head>
     <body>
         <div class="container">
+            Menu <br>
+            <a href="{{ route('articles.index') }}">Articles</a>
+            <hr>
             @yield('header')
             <div class="content">
                 @yield('content')

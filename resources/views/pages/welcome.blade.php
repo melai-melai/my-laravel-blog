@@ -64,6 +64,7 @@
         </style>
     </head>
     <body>
+        <a href="{{ route('articles.index') }}">Articles</a>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
